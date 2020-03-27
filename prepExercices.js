@@ -30,8 +30,8 @@ color:    'yellow'
 // 2. Create an object that represents you. It should contain your first name, last name, age and hometown. Assign it to a variable called person.
 
   var person = {
-  firstname: 'Emna',
-  lastname:  'Labiadh',
+  firstname: 'Labiadh',
+  lastname:  'Emna',
   age:        18,
   hometown:   'Tunis'
   };
@@ -41,8 +41,8 @@ color:    'yellow'
 //  Date of Birth
 //  Place of Birth
    var person = {
-firstname: 'Emna',
-lastname:  'Labiadh',
+firstname: 'Labiadh',
+lastname:  'Emna',
 age:        18,
 hometown:   'Tunis',
 favmovies:  'Hunger game',
@@ -52,20 +52,35 @@ placeofbirth: 'Manzah'
 };
 
 // 4.Change your object to have a single name key, the value of which is an object – this object should have first, last and middle keys containing your first, last, and middle names respectively.
-
+   var object = {
+  person : {
+   firstName: 'Labiadh',
+   lastName: 'Emna',
+   middleName: 'Lolita'
+ }
+}
 // 5.Look up something you want to buy on souq.com, and make an object that represents information about the item:
 //  Item Name
 //  Category/Type
 //  Year released
 //  Rating
 //  Price
+  var object = {
+ItemName: 'Phone',
+Type: 'Iphone11pro',
+Yearreleased: 2019,
+Rating : 'excellent',
+Price: 600000,
+};
 
 // 6.in the console,Create a new empty object in your console called obj like this:
 // var obj = {};
-
+var obj = {};
 // 7.Add a new key/value pair to the object obj by assigning a new value to a new key like so:
 //  obj.hello = 'world';
 //  obj['number'] = 25;
+obj.hello = 'world'
+obj['number'] = 25
 
 // 8. Now, check the value of obj in the console and ensure that it has the two key/value pairs added above. This is how we create new key/value pairs in existing objects.
 
