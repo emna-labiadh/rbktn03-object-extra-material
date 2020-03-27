@@ -2,22 +2,54 @@
 // Basic Requirments
 // 1.Fix the syntax & style issues with the three objects below:
 //  {firstName 'Yan', lastname: 'Fan' }
+    var user = {
+firstName: 'Yan',
+lastName:  'Fan'
+};
 //  {a: 1, b:2 c: 3 d 4}
+var lettre = {
+a:1,
+b:2,
+c:3,
+d:4
+};
 //  {
 //        animal: 'dog'
 //        noise: 'bark',
 //        age: 3,
 //        type 'Golden Retriever'
-//        color: 'Yellow',
+//        color: 'Yellow'
 //  }
-
+var animal = {
+animal: 'dog',
+noise:  'bark',
+age:      3,
+type:    'Colden Retrievre',
+color:    'yellow'
+};
 // 2. Create an object that represents you. It should contain your first name, last name, age and hometown. Assign it to a variable called person.
 
+  var person = {
+  firstname: 'Emna',
+  lastname:  'Labiadh',
+  age:        18,
+  hometown:   'Tunis'
+  };
 // 3.Add three more key/value pairs to your object that represent other attributes of yourself. Ideas include (but are not limited to):
 //  Favorite TV Shows/Movies/Sports/Activities etc.
 //  Family
 //  Date of Birth
 //  Place of Birth
+   var person = {
+firstname: 'Emna',
+lastname:  'Labiadh',
+age:        18,
+hometown:   'Tunis',
+favmovies:  'Hunger game',
+family:      4,
+dateofbirth: 2001,
+placeofbirth: 'Manzah'
+};
 
 // 4.Change your object to have a single name key, the value of which is an object – this object should have first, last and middle keys containing your first, last, and middle names respectively.
 
