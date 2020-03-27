@@ -40,23 +40,17 @@ color:    'yellow'
 //  Family
 //  Date of Birth
 //  Place of Birth
-   var person = {
-firstname: 'Labiadh',
-lastname:  'Emna',
-age:        18,
-hometown:   'Tunis',
-favmovies:  'Hunger game',
-family:      4,
-dateofbirth: 2001,
-placeofbirth: 'Manzah'
-};
+   person.favmovie = 'hunger game'
+   person.family = 4
+   person.dateofbirth = 2001
+   person.placeofbirth = 'Manzah'
 
 // 4.Change your object to have a single name key, the value of which is an object – this object should have first, last and middle keys containing your first, last, and middle names respectively.
    var object = {
   person : {
    firstName: 'Labiadh',
    lastName: 'Emna',
-   middleName: 'Lolita'
+   middleName: 'Lolit'
  }
 }
 // 5.Look up something you want to buy on souq.com, and make an object that represents information about the item:
@@ -85,7 +79,7 @@ obj['number'] = 25
 // 8. Now, check the value of obj in the console and ensure that it has the two key/value pairs added above. This is how we create new key/value pairs in existing objects.
 
 // 9.In the console attached to your main.js file, add a favoriteColor key/value pair to the object that represents you.
-
+person.favoriteColor = 'red'
 // 10.Fix the attempts to access values in the person object:
 //  var key = 'name';
 //  var woman = {
@@ -98,7 +92,11 @@ obj['number'] = 25
 //  woman['computer scientist'] // => ???
 //  Side Note: Who is Grace Hopper? She is one of the most influential people in the history of computer science and software engineering.
 //  Read more about her contribution to our field here. (https://en.wikipedia.org/wiki/Grace_Hopper)
-
+var woman = {
+name: 'Grace Hoper',
+age: 85,
+occupation: 'computer scientist'
+}
 // 11.Write a function formatName that takes the person object that you created above (the first exercise at the top) as an argument, and returns your full name.
 
 // 12.Using these objects:
