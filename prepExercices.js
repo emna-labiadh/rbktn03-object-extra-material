@@ -46,18 +46,14 @@ color:    'yellow'
    person.placeofbirth = 'Manzah'
 
 // 4.Change your object to have a single name key, the value of which is an object – this object should have first, last and middle keys containing your first, last, and middle names respectively.
-   var object = {
-  person : {
-   firstName: 'Labiadh',
-   lastName: 'Emna',
-   middleName: 'Lolit'
- }
-}
-// 5.Look up something you want to buy on souq.com, and make an object that represents information about the item:
+   person.firstName = 'Labiadh'
+   person.lastName = 'Emna'
+   person.middleName = 'Lolita'
+// look up something you want to buy on souq.com,and make an object that represents information about the item:
 //  Item Name
 //  Category/Type
 //  Year released
-//  Rating
+//  Rating}
 //  Price
   var object = {
 ItemName: 'Phone',
@@ -92,13 +88,20 @@ person.favoriteColor = 'red'
 //  woman['computer scientist'] // => ???
 //  Side Note: Who is Grace Hopper? She is one of the most influential people in the history of computer science and software engineering.
 //  Read more about her contribution to our field here. (https://en.wikipedia.org/wiki/Grace_Hopper)
-var woman = {
-name: 'Grace Hoper',
-age: 85,
-occupation: 'computer scientist'
-}
+var key = 'name'; 
+ var woman = { 
+     name: 'Grace Hopper', 
+     age: 85, 
+     occupation: 'computer scientist' 
+ }; 
+woman["age"]
+woman[key]
+women["occupation"]
 // 11.Write a function formatName that takes the person object that you created above (the first exercise at the top) as an argument, and returns your full name.
-
+   function formatName(person) {
+   	var fullName
+   	return fullName = person.firstName + ' ' + person.lastName
+   }
 // 12.Using these objects:
 //  var people = [
 //        {name: {first: 'Grace', middle: 'B.', last: 'Hopper'}, age: 85},
